@@ -37,8 +37,6 @@ canvas.grid(row=1, column=0)
 label = Label(text="Upload an image to generate color palette.", fg=bg1, bg=bg2)
 label.grid(row=0, column=0)
 
-#canvas.create_text(200, 20, text="Upload a .jpg/.jpeg to generate color palette.")
-
 lower_res('placeholder.jpeg')
 placeholder = Image.open('low_res.jpeg')
 picture = ImageTk.PhotoImage(placeholder)
